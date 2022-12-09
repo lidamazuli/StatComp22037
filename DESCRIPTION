@@ -1,0 +1,18 @@
+Package: StatComp22037
+Type: Package
+Title: homework functions for 'Statistical Computing' course
+Description: The log-logistic models are the most used dose-response models. This package provides two-parameter log-logistic model(2PLM), three-parameter log-logistic model(3PLM),
+ four-parameter log-logistic model(4PLM), and five-parameter log-logistic model(5PLM), with the method of calculating their gradient and hessian matrix.
+Version: 0.1
+Date: 2022-12-7
+Author: Haozhe Liang 
+Maintainer: Haozhe Liang <lianghaozhe@mail.ustc.edu.cn>
+Depends:
+    R (>= 3.0.2)
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.9), microbenchmark, knitr, rmarkdown
+LinkingTo: Rcpp
+Encoding: UTF-8
+LazyData: FALSE
+RoxygenNote: 7.2.2
+VignetteBuilder: knitr
